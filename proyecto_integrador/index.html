@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <title>IT Bs As</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+<body>
+
+<!-- Página Index -->
+<header>
+    <!-- Barra de navegación -->    
+    <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/codoacodo-min.png" alt="Logo Codo a Codo" class="navbar-logo">
+                <span class="navbar-text">IT Bs As</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Conferencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Expositores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Cronograma</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#form-new-orador">Animate a ser orador</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active btn-tickets" href="tickets.html">Adquirir tickets</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<main>
+     <!-- Carrusel -->
+     <div id="myCarousel" class="carousel slide my-4" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active bg-carousel-ba1">
+                <img class="d-block w-100" src="images/ba1-min.jpg" alt="bsas_1">
+                <div class="carousel-caption text-end pb-5">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-4">
+                            <h2>IT Bs. As.</h2>
+                            <p>¡Bienvenido a IT Bs. As.! Un evento para explorar el futuro de la tecnología y aprender de expertos. Únete a nosotros y conoce a nuestros expositores destacados. ¡Te esperamos!</p>
+                            <p><a class="btn btn-outline-warning mb-3" href="#form-new-orador">Participa de orador</a> <a class="btn btn-warning ms-2 mb-3" href="tickets.html">Adquiere un tickets</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item bg-carousel-ba2">
+                <img class="d-block w-100" src="images/ba2-min.jpg" alt="bsas_2">
+                <div class="carousel-caption text-end pb-5">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-4">
+                            <h2>IT Bs. As.</h2>
+                            <p>¡Bienvenido a IT Bs. As.! Un evento para explorar el futuro de la tecnología y aprender de expertos. Únete a nosotros y conoce a nuestros expositores destacados. ¡Te esperamos!</p>
+                            <p><a class="btn btn-outline-warning mb-3" href="#form-new-orador">Participa de orador</a> <a class="btn btn-warning ms-2 mb-3" href="tickets.html">Adquiere un tickets</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item bg-carousel-ba3">
+                <img class="d-block w-100" src="images/ba3-min.jpg" alt="bsas_3">
+                <div class="carousel-caption text-end pb-5">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-4">
+                            <h2>IT Bs. As.</h2>
+                            <p>¡Bienvenido a IT Bs. As.! Un evento para explorar el futuro de la tecnología y aprender de expertos. Únete a nosotros y conoce a nuestros expositores destacados. ¡Te esperamos!</p>
+                            <p><a class="btn btn-outline-warning mb-3" href="#form-new-orador">Participa de orador</a> <a class="btn btn-warning ms-2 mb-3" href="tickets.html">Adquiere un tickets</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </a>
+    </div>
+    
+     <!-- Sección principal -->
+    <section class="container mb-4">
+        <h2 class="title-gral">Conoce a nuestras <span>expositoras</span></h2>
+
+        <div class="row justify-content-center">
+            <div class="col-md-11">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/Grace-Imagen.jpg" class="card-img-top card-img-custom" alt="Grace Image">
+                            <div class="card-body">
+                                <div class="mb-2">
+                                    <span class="badge bg-warning text-dark">Cobol</span>
+                                    <span class="badge bg-info">Flow-Matic</span>
+                                </div>
+                                <h5 class="card-name">Grace Murray Hoppers</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et aspernatur, sit dolorem officiis dolor, nobis sed labore non culpa dignissimos amet excepturi odit quis quos temporibus ut asperiores possimus. Veniam!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/adele-goldberg.jpg" class="card-img-top card-img-custom" alt="Adele Image">
+                            <div class="card-body">
+                                <div class="mb-2">
+                                    <span class="badge bg-warning text-dark">POO</span>
+                                    <span class="badge bg-info">GUI</span>
+                                </div>
+                                <h5 class="card-name">Adele Goldberg</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, nostrum saepe et quaerat illo possimus provident laboriosam totam sunt magni recusandae eligendi optio earum quas ab omnis fuga molestiae corrupti.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/margaret-hamilton.jpg" class="card-img-top card-img-custom" alt="Margaret Image">
+                            <div class="card-body">
+                                <div class="mb-2">
+                                    <span class="badge bg-warning text-dark">DBTF</span>
+                                    <span class="badge bg-info">SAGE</span>
+                                </div>
+                                <h5 class="card-name">Margaret Hamilton</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, veniam eius excepturi sapiente eligendi quaerat soluta nihil iste vero sequi cum nam quibusdam quam voluptas consequuntur natus! Optio, perspiciatis velit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <hr class="mb-4">
+
+    <!-- Sección ciudad de bs as-->
+    <section class="place-info mb-4">
+        <div class="row g-0">
+            <div class="col-md">
+                <img src="images/felipe-labate-unsplash.jpg" alt="panoramica de bs as" class="place-image img-fluid">
+            </div>
+            <div class="col-md text-light bg-aside1">
+                <h2>Buenos Aires - Diciembre</h2>
+                <p align="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. At placeat molestias vitae unde facere voluptatem minus voluptates commodi corrupti tenetur! Pariatur qui enim animi sapiente sed error similique molestiae ipsum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, excepturi deleniti harum facilis id, a illo assumenda officiis illum praesentium eos. Qui laborum ratione in hic ducimus debitis voluptatum aperiam.</p>
+                <a class="btn btn-outline-light" href="#">Descubre la ciudad</a>
+            </div>
+        </div>
+    </section>
+    <hr class="mb-4">
+    <!-- Sección nuevo orador-->
+    <section class="new-orador container" id="form-new-orador">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7">
+                <h2 class="form-label">Se nuestro <span>orador</span></h2>
+                <p class="text-center">Únete a la experiencia y presenta una charla sobre tu pasión.</p>
+                <form action="">
+                    <div class="row gx-2">
+                        <div class="col-md mb-3">
+                            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" required>
+                        </div>
+                        <div class="col-md mb-3">
+                            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mb-3">
+                            <input type="email" class="form-control" placeholder="E-mail" aria-label="Email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mb-3">
+                            <textarea class="form-control" id="formControlTextArea" rows="4"
+                                placeholder="Cuéntanos aquí sobre qué tema quieres hablar..." required></textarea>
+                            <div id="emailHelp" class="form-text mb-3">* Incluye un buen título para tu charla.</div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-lg submit-button btn-outline-warning">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-dark text-light pt-5 pb-4"> 
+    <div class="container text-center text-md-start">
+        <div class="row">
+            <!-- Nosotros -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Nosotros</h5>
+                <hr class="mb-4">
+                <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vehicula tristique malesuada.</p>
+                <p align="justify">Suspendisse posuere vulputate congue. Aliquam ac rhoncus ex.</p>
+            </div>
+            <!-- Información -->
+            <div class="col-md-2 col-lg-3 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-primary"> Información</h5>
+                <hr class="mb-4">
+                <p>
+                    <a href="#" class="text-light">FAQ</a>
+                </p>
+                <p>
+                    <a href="#" class="text-light">Prensa</a>
+                </p>
+                <p>
+                    <a href="#" class="text-light">Conferencias Pasadas</a>
+                </p>
+            </div>
+            <!-- Detalles -->
+            <div class="col-md-2 col-lg-3 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Detalles</h5>
+                <hr class="mb-4">
+                <p>
+                    <a href="#" class="text-light">Términos y condiciones</a>
+                </p>
+                <p>
+                    <a href="#" class="text-light">Política de Privacidad</a>
+                </p>
+                <p>
+                    <a href="#" class="text-light">Ayuda</a>
+                </p>
+            </div>
+            <!-- Contacto -->
+            <div class="col-md-2 col-lg-3 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contacto</h5>
+                <hr class="mb-4">
+                <p>
+                    <i class="fas fa-home me-3"></i> Argentina, CABA
+                </p>
+                <p>
+                    <i class="fas fa-envelope me-3"></i> it-bsas-24@gmail.com
+                </p>
+                <p>
+                    <i class="fas fa-phone me-3"></i> +54 11 1234567
+                </p>
+            </div>
+			
+			<hr class="mb-4">
+		<!-- Copyright -->		
+			<div class="text-center mb-2">
+			    <p >
+					© 2023 Sitio Web como Trabajo Integrador - Comision 23648 - Todos los derechos reservados: <strong> Ruth Alonso</strong>
+				</p>        
+			</div>
+		<!-- Redes sociales -->	
+			<div class="text-center">
+				<ul class="list-unstyled list-inline">
+					<li class="list-inline-item">
+						<a href="#" class="text-light"> <i class="fab fa-facebook"></i><a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#" class="text-light"> <i class="fab fa-twitter"></i><a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#" class="text-light"> <i class="fab fa-linkedin-in"></i><a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#" class="text-light"> <i class="fab fa-youtube"></i><a>
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+	</div>
+</footer>
+
+
+<!-- Recursos de Bootstrap y JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
+

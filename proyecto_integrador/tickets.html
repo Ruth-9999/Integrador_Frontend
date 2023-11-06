@@ -1,0 +1,247 @@
+
+<!-- Página emision_tickets -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <title>Tickets</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+ <!--   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+<!-- Página Index -->
+<header>
+    <!-- Barra de navegación -->    
+    <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/codoacodo-min.png" alt="Logo Codo a Codo" class="navbar-logo">
+                <span class="navbar-text">IT Bs As</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Conferencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Expositores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Cronograma</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Animate a ser orador</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active btn-tickets" href="tickets.html">Adquirir tickets</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+        <!-- Contenido de la página "emision_tickets" -->        
+    <section class="container mb-4 pt-section">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7">
+                <hr class="mb-4">
+                <h3 class="label-invitacion">
+                <span>Te esperamos</span></h3>
+
+                <div class="row row-cols-1 row-cols-md-3 text-center">
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                            <div class="card-header py-3 text-white bg-primary border-primary">
+                                <h4 class="my-0 fw-normal">Estudiante </h4>
+                            </div>
+                            <div class="card-body">
+                                <p>Se les aplica un descuento del </p>
+                                <h3 class="card-title pricing-card-title">80%</h3>
+                                <small class="fw-light text-muted mt-3">* Adjuntar documentación</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm border-info">
+                            <div class="card-header py-3 text-white bg-info border-info">
+                                <h4 class="my-0 fw-normal">Trainee</h4>
+                            </div>
+                            <div class="card-body">
+                                <p>Se les aplica un descuento del </p>
+                                <h3 class="card-title pricing-card-title">50%</h3>
+                                <small class="fw-light text-muted mt-3">* Adjuntar documentación</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm border-warning">
+                            <div class="card-header py-3 text-white bg-warning border-warning">
+                                <h4 class="my-0 fw-normal">Junior</h4>
+                            </div>
+                            <div class="card-body">
+                                <p>Se les aplica un descuento del </p>
+                                <h3 class="card-title pricing-card-title">15%</h3>
+                                <small class="fw-light text-muted mt-3">* Adjuntar documentación</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="mb-4">
+                <!-- h3 class="label-principal">Obten tu ticket </h3> -->
+                <h2>Valor de tu inversion $3000</h2>
+                
+                <form action="">
+                    <div class="row gx-2">
+                        <div class="col-md mb-3">
+                            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre"
+                            id="nombre"  required>
+                        </div>
+                        <div class="col-md mb-3">
+                            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" id="apellido" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mb-3">
+                            <input type="email" class="form-control" placeholder="E-mail" aria-label="Email" id="email" required>
+                        </div>
+                    </div>
+                    <div class="row gx-2">
+                        <div class="col-md mb-3">
+                            <label for="cantTickets" class="form-label">Cantidad</label>
+                            <input type="number" class="form-control" placeholder="Cantidad" aria-label="Cantidad" id="cantidadTickets" min="1" required>
+                        </div>
+                        <div class="col-md mb-3">
+                            <label for="catgrSelect" class="form-label">Categoría</label>
+                            <select class="form-select" aria-label="Categoría" id="catgrSelect">
+                                <option value="" selected>- Opte por una -</option>
+                                <option value="0">Sin Categoria</option>
+                                <option value="1">Estudiante</option>
+                                <option value="2">Trainee</option>
+                                <option value="3">Junior</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="alert alert-primary mt-2 mb-4" role="alert">
+                        Importe final: $ <span id="importeTotal" class="align-middle"></span>
+                    </div>
+                    <div class="row gx-2">
+                        <div class="col-md mb-3">
+                            <button type="reset" class="w-100 btn btn-lg btn-form btn-outline-warning" id="btnBorrar">Borrar</button>
+                        </div>
+                        <div class="col-md mb-3">
+                            <button type="button" class="w-100 btn btn-lg btn-form btn-outline-warning" id="btnDetalle">Detalle</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-dark text-light pt-5 pb-4"> 
+    <div class="container text-center text-md-start">
+        <div class="row">
+            <!-- Nosotros -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Nosotros</h5>
+                <hr class="mb-4">
+                <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vehicula tristique malesuada.</p>
+                <p align="justify">Suspendisse posuere vulputate congue. Aliquam ac rhoncus ex.</p>
+            </div>
+            <!-- Información -->
+            <div class="col-md-2 col-lg-3 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-primary"> Información</h5>
+                <hr class="mb-4">
+                <p>
+                    <a href="#" class="text-light">FAQ</a>
+                </p>
+                <p>
+                    <a href="#" class="text-light">Prensa</a>
+                </p>
+                <p>
+                    <a href="#" class="text-light">Conferencias Pasadas</a>
+                </p>
+            </div>
+            <!-- Detalles -->
+            <div class="col-md-2 col-lg-3 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Detalles</h5>
+                <hr class="mb-4">
+                <p>
+                    <a href="#" class="text-light">Términos y condiciones</a>
+                </p>
+                <p>
+                    <a href="#" class="text-light">Política de Privacidad</a>
+                </p>
+                <p>
+                    <a href="#" class="text-light">Ayuda</a>
+                </p>
+            </div>
+            <!-- Contacto -->
+            <div class="col-md-2 col-lg-3 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contacto</h5>
+                <hr class="mb-4">
+                <p>
+                    <i class="fas fa-home me-3"></i> Argentina, CABA
+                </p>
+                <p>
+                    <i class="fas fa-envelope me-3"></i> it-bsas-24@gmail.com
+                </p>
+                <p>
+                    <i class="fas fa-phone me-3"></i> +54 11 1234567
+                </p>
+            </div>
+			
+			<hr class="mb-4">
+		<!-- Copyright -->		
+			<div class="text-center mb-2">
+			    <p >
+					© 2023 Sitio Web como Trabajo Integrador - Comision 23648 - Todos los derechos reservados: <strong> Ruth Alonso</strong>
+				</p>        
+			</div>
+		<!-- Redes sociales -->	
+			<div class="text-center">
+				<ul class="list-unstyled list-inline">
+					<li class="list-inline-item">
+						<a href="#" class="text-light"> <i class="fab fa-facebook"></i><a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#" class="text-light"> <i class="fab fa-twitter"></i><a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#" class="text-light"> <i class="fab fa-linkedin-in"></i><a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#" class="text-light"> <i class="fab fa-youtube"></i><a>
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+	</div>
+</footer>
+
+
+<!-- Recursos de Bootstrap y JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="js/comprar-tickets.js"></script>
+
+
+</body>
+</html>

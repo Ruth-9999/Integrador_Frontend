@@ -1,0 +1,159 @@
+/* Comentarios: Puedes agregar comentarios aquí */
+/* Estos comentarios son ignorados por el navegador */
+
+
+/* Estilo para barra de navegacion */
+.navbar-logo {
+    max-width: 80px; /* Tamaño del logo */
+  }
+.navbar-text {
+    font-size: 20px; /* Tamaño de fuente */
+    color: #eff0e1;
+  }
+
+
+/* Estilos para el cuerpo del documento HTML */
+body {
+    font-family: Arial, sans-serif; /* Cambia la fuente según tu preferencia */
+    background-color: #f0f0f0; /* Cambia el color de fondo según tu preferencia */
+    color: #333; /* Cambia el color del texto según tu preferencia */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+}
+
+/* Estilos para encabezados h1 */
+h1 {
+    font-size: 28px; /* Cambia el tamaño de fuente según tu preferencia */
+    color: #333; /* Cambia el color del texto según tu preferencia */
+    margin-top: 20px; /* Espacio superior */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+/* Estilos para párrafos */
+p {
+    font-size: 16px; /* Cambia el tamaño de fuente según tu preferencia */
+    color: #666; /* Cambia el color del texto según tu preferencia */
+    line-height: 1.5; /* Espaciado entre líneas */
+}
+
+/* Estilos para enlaces */
+a {
+    text-decoration: none; /* Elimina la decoración de enlace predeterminada */
+    color: #1b5582; /* Cambia el color del enlace según tu preferencia */
+}
+
+/* Estilos para enlaces al pasar el cursor sobre ellos */
+a:hover {
+    text-decoration: underline; /* Puedes ajustar esto según tu preferencia */
+    font-weight: bold; /* Agregar negrita (bold) */
+    color: #ffee00dc; /* Cambiar a tu color deseado (por ejemplo, rojo) */
+}
+
+/* Estilos enlaces externos */
+i{
+    font-size: 25;
+}
+
+/* Estilo en footer */
+h5.text-primary {
+    color: yellow; /* No logro cambia el color del texto a amarillo */
+}
+
+
+/* Estilo para el título h2 en FORMULARIO */
+h2.form-label {
+    font-size: 28px; /* Cambia el tamaño de fuente */
+    color: #f7d707; /* Cambia el color del texto */
+    font-weight: bold; /* Pone el texto en negrita */
+    background-color: #888888be; /* Agrega un fondo gris */
+    text-align: center; /* Alinea el texto al centro horizontalmente */
+    padding: 10px; /* Agrega un espacio alrededor del texto para separarlo del fondo */
+    font-family: 'Roboto', sans-serif; /* Cambia la fuente a Roboto */
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+}
+
+/* Estilo para el  CARRUSEL*/
+
+
+p.text-center {
+    font-size: 17px; /* Cambia el tamaño de fuente */
+    color: #666; /* Cambia el color del texto */
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 10px; /* Agrega margen superior para separarlo del título */
+}
+
+.carousel-caption p {
+    color: #0a0f1c; /* Cambio el color del texto para lograr algo de contraste */
+    text-shadow: 2px 2px 6px rgba(236, 229, 229, 0.958); /* Agrego una sombra al texto */
+    font-family: 'Roboto', sans-serif; /* Cambio la fuente a Roboto */
+    font-weight: bold; /* Pongo el texto en negrita */
+    font-size: 18px; /* Cambio el tamaño de fuente */
+    /* y no logro que resalte el texto %&$#+*/
+}
+
+.carousel-caption a {
+    position: relative;
+    z-index: 1;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Ajusta el color y la opacidad del oscurecimiento */
+}
+
+
+/* Estilos en CARDs */
+.title-gral {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-family: 'Roboto', sans-serif; /* Utiliza la fuente Roboto */
+}
+
+/* Estilo para las imágenes de las tarjetas */
+.card-img-custom {
+    width: 100%; /* Establece el ancho máximo al 100% */
+    height: 200px; /* Establece la altura deseada para las imágenes */
+    object-fit: cover; /* Ajusta la imagen dentro del tamaño fijo sin distorsionar */
+}
+
+/* Ciudad de Bs As*/
+
+.place-info h2 {
+    font-size: 36px; /* Tamaño de fuente más grande para el título */
+    text-shadow: 2px 2px 6px rgba(5, 5, 5, 0.989); /* Agrego una sombra al texto */
+}
+
+.place-info p {
+    font-size: 18px; /* Tamaño de fuente más grande para el párrafo */
+}
+
+.place-info .col-md {
+    padding-left: 0px; /* Agrega más espacio interno a las columnas de imagen */
+}
+
+.place-info .col-md.text-light {
+    padding-left: 20px;  /* Agrega 20px de espaciado a la izquierda */
+    padding-right: 20px; /* Agrega 20px de espaciado a la derecha */
+
+}
+
+
+
+/* TICKETS */
+h3.label-invitacion {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+/* Centrar el texto y convertirlo en mayúsculas */
+.label-principal, h2 {
+    text-align: center; /* Centra el texto horizontalmente */
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+}
